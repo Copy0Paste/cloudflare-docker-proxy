@@ -1,10 +1,10 @@
 # cloudflare-docker-proxy
 
-![deploy](https://github.com/ciiiii/cloudflare-docker-proxy/actions/workflows/deploy.yaml/badge.svg)
+![deploy](https://github.com/Copy0Paste/cloudflare-docker-proxy/actions/workflows/deploy.yaml/badge.svg)
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ciiiii/cloudflare-docker-proxy)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Copy0Paste/cloudflare-docker-proxy)
 
-> If you're looking for proxy for helm, maybe you can try [cloudflare-helm-proxy](https://github.com/ciiiii/cloudflare-helm-proxy).
+> If you're looking for proxy for helm, maybe you can try [cloudflare-helm-proxy](https://github.com/Copy0Paste/cloudflare-helm-proxy).
 
 ## Deploy
 
@@ -27,7 +27,7 @@
    - add `A` record of xxx.example.com to `192.0.2.1`
    - deploy this project to cloudflare workers
    - add `xxx.example.com/*` to HTTP routes of workers
-   - add more records and modify the config as you need
+   - add more records 和 modify the config as you need
    ```javascript
    const routes = {
      "docker.libcuda.so": "https://registry-1.docker.io",
