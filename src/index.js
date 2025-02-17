@@ -1,10 +1,10 @@
-addEventListener("fetch", (event) => {
+addEventListener("fetch"， (event) => {
   event.passThroughOnException();
   event.respondWith(handleRequest(event.request));
 });
 
 const dockerHub = "https://registry-1.docker.io";
-
+const CUSTOM_DOMAIN = 'docker.2054.eu.org'
 const routes = {
   // production
   ["docker." + CUSTOM_DOMAIN]: dockerHub,
